@@ -58,7 +58,7 @@ localhost ansible_connection=local
 [database]
 [all:vars]
 
-admin_password="$2"
+admin_password="$1"
 
 
 pg_host=''
